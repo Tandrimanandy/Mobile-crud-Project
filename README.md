@@ -164,8 +164,7 @@ Below are actual terminal runs of the application, covering every menu option en
 
 **1. Adding a Mobile**
 
-![Add Mobile](<img width="564" height="701" alt="01_add_mobile" src="https://github.com/user-attachments/assets/d97b968d-5f76-47b3-942a-1e787cf4dfe5" />
-)
+<img width="564" height="701" alt="Add Mobile" src="https://github.com/user-attachments/assets/d97b968d-5f76-47b3-942a-1e787cf4dfe5" />
 
 A new mobile (`Samsung A 51`) is added successfully, and the menu reappears for the next action.
 
@@ -173,7 +172,7 @@ A new mobile (`Samsung A 51`) is added successfully, and the menu reappears for 
 
 **2. Invalid Menu Choice**
 
-![Invalid Choice](screenshots/02_invalid_choice.png)
+<img width="519" height="681" alt="Invalid Choice" src="PASTE_IMAGE_2_URL_HERE" />
 
 Entering an out-of-range value (`13579`) is handled gracefully by the `case _:` branch in `dashboard()`, without crashing the program.
 
@@ -181,7 +180,7 @@ Entering an out-of-range value (`13579`) is handled gracefully by the `case _:` 
 
 **3. Adding Another Mobile**
 
-![Add Mobile Again](screenshots/03_add_mobile_again.png)
+<img width="475" height="669" alt="Add Mobile Again" src="PASTE_IMAGE_3_URL_HERE" />
 
 A second and third mobile (`Apple 12 pro`, `Vivo M 31`) are added, demonstrating that `add_mobile()` correctly appends multiple records to the `mobiles` list.
 
@@ -189,7 +188,7 @@ A second and third mobile (`Apple 12 pro`, `Vivo M 31`) are added, demonstrating
 
 **4. Displaying All Mobiles**
 
-![Display All Mobiles](screenshots/04_display_mobiles.png)
+<img width="943" height="704" alt="Display All Mobiles" src="PASTE_IMAGE_4_URL_HERE" />
 
 `display_mobiles()` prints all stored records in a clean, aligned table — confirming all three additions were stored correctly.
 
@@ -197,7 +196,7 @@ A second and third mobile (`Apple 12 pro`, `Vivo M 31`) are added, demonstrating
 
 **5. Updating a Mobile**
 
-![Update Mobile](screenshots/05_update_mobile.png)
+<img width="466" height="381" alt="Update Mobile" src="PASTE_IMAGE_5_URL_HERE" />
 
 `update_mobile()` locates the mobile by ID (`12345`), shows its current details, then overwrites them with the new brand, model, price, and quantity.
 
@@ -205,7 +204,7 @@ A second and third mobile (`Apple 12 pro`, `Vivo M 31`) are added, demonstrating
 
 **6. Deleting a Mobile**
 
-![Delete Mobile](screenshots/06_delete_mobile.png)
+<img width="502" height="502" alt="Delete Mobile" src="PASTE_IMAGE_6_URL_HERE" />
 
 `delete_mobile()` locates the mobile by ID, asks for confirmation (`Y/N`), and removes it from the list upon confirmation.
 
