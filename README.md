@@ -164,7 +164,8 @@ Below are actual terminal runs of the application, covering every menu option en
 
 **1. Adding a Mobile**
 
-![Add Mobile](screenshots/01_add_mobile.png)
+![Add Mobile](<img width="564" height="701" alt="01_add_mobile" src="https://github.com/user-attachments/assets/d97b968d-5f76-47b3-942a-1e787cf4dfe5" />
+)
 
 A new mobile (`Samsung A 51`) is added successfully, and the menu reappears for the next action.
 
